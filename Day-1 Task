@@ -1,0 +1,23 @@
+1. Write a blog on  Difference between HTTP/1.1 and HTTP/2
+
+
+HTTP/1.1 
+// it works on the textual format.
+// It uses requests resource Inlining for use getting multiple pages.
+// It compresses data by itself.
+// There is head of line blocking that blocks all the request behind it untill it does not get its all resources.
+
+
+HTTP/2
+// It Works on the binary protocol.
+// It uses PUSH frame by server that collects all multiple pages.
+// It uses HPACK for data compression.
+// It allows multiplexing so one TCP connection is required for multiple requests.
+
+
+   2. Write a blog about objects and its internal representatioin in Javascript
+
+   //     These objects are quite different from JavaScripts primitive data types.
+   //     Data types (Number, String, Boolean, null, undefined and symbol).
+   //     In the sense that while these primitive data-types all store a single value each ( depending on their types).
+   //    Objects, in JavaScript, is its most important data type and forms the building blocks for modern JavaScript.
